@@ -8,7 +8,7 @@
 ## 
 [string] $vdphost = "172.27.24.96"         ##  This is the VDP appliance we will be connecting to.  
 [string] $vdpuser = "cliuser"              ##  This is the user we will connect to the Appliance with.  #[string] $vdppassword = "12!pass345"          ##  Store the password in clear text. Uncomment to define the password.   
-[string] $vdppasswordfile = "c:\keys\cliuser.key"  ##  Store the password in encrypted format. Uncomment to use the passwordfile
+[string] $vdppasswordfile = "c:\scripts\cliuser.key"  ##  Store the password in encrypted format. Uncomment to use the passwordfile
 
 [bool] $oracle_app = $True                 ## Is this an Oracle or SQL database? 
 [bool] $debug = $False        
